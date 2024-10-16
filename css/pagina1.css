@@ -1,0 +1,61 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 461px 461px 461px 461px;
+    grid-template-rows:400px 100px 400px 400px ;
+    grid-template-areas: 
+    'head head head head'
+    's5 s2 s2 s2'
+    's5 s3 s3 s4'
+    's1 s3 s3 s4'
+    'pie pie pie pie'
+    ;
+}
+header{
+    background-color: black;
+    grid-area: head;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#s1{
+    background-color: rgb(171, 107, 231);
+    grid-area: s1;
+    text-align: center;
+}
+#s2{
+    background-color: rgb(179, 179, 179);
+    grid-area: s2;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+}
+#s3{
+    background-color: rgb(230, 188, 73);
+    grid-area: s3;
+    text-align: center;
+}
+#s4{
+    background-color: cornflowerblue;
+    grid-area: s4;
+    text-align: center;
+}
+#s5{
+    background-color: aquamarine;
+    grid-area: s5;
+    text-align: center;
+}
+footer{
+    background-color: rgb(100, 100, 100);
+    grid-area: pie;
+    text-align: center;
+}
+html{
+    background-color: black;
+}
+
+#i1{
+    width: 1844px;
+    height: 400px;
+}
